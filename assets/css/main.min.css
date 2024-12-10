@@ -12647,3 +12647,24 @@ font-size: 80px;
 .sm-hero {
   height: 850px;
 }
+@media (max-width: 768px) {
+  .services-item__img img {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .solution-absolut  {
+    margin-top: 150px;
+  }
+
+  .solution-absolut-title {
+    /* margin-bottom: 200px; */
+    position: absolute;
+    top: -250px;
+  }
+}
+@media (max-width: 400px) {
+  .solution-absolut-title {
+    top: -290px;
+  }
+}
