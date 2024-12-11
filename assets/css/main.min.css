@@ -2154,7 +2154,7 @@ div.cursors div span.visible {
     align-items: stretch;
 }
 .footer-social {
-    margin-top: 220px;
+    margin-top: 40px;
 }
 .footer-social p {
     font-size: 15px;
@@ -2417,9 +2417,9 @@ div.cursors div span.visible {
     }
 }
 @media (max-width: 1600px) {
-    .footer-social {
+    /* .footer-social {
         margin-top: 140px;
-    }
+    } */
     .footer-col {
         margin-right: 40px;
     }
@@ -2481,9 +2481,9 @@ div.cursors div span.visible {
     .footer-main {
         padding-left: 40px;
     }
-    .footer-social {
+    /* .footer-social {
         margin-top: 260px;
-    }
+    } */
 }
 @media (max-width: 1205px) and (min-width: 1023px) {
     .footer-contact p {
@@ -2520,9 +2520,9 @@ div.cursors div span.visible {
         align-items: center;
         max-width: initial;
     }
-    .footer-social {
+    /* .footer-social {
         margin-top: 0;
-    }
+    } */
     .footer-company__desc {
         max-width: 230px;
         margin-left: 30px;
