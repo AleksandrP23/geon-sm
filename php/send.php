@@ -37,19 +37,19 @@
   if ($success) {
 
     try {
-      // // Настройки сервера
-      // $mail->SMTPDebug = 0;
-      // // $mail->isSMTP();
-      // $mail->Host       = 'smtp.gmail.com';
-      // $mail->SMTPAuth   = true;
-      // $mail->Username   = 'ilyr.dev';
-      // $mail->Password   = 'qAqvAoKb';
-      // $mail->SMTPSecure = 'ssl';
-      // $mail->Port       = 465;
+      // Настройки сервера
+      $mail->SMTPDebug = 0;
+      // $mail->isSMTP();
+      $mail->Host       = 'smtp.gmail.com';
+      $mail->SMTPAuth   = true;
+      $mail->Username   = 'ilyr.dev';
+      $mail->Password   = 'qAqvAoKb';
+      $mail->SMTPSecure = 'ssl';
+      $mail->Port       = 465;
 
-      // // Адреса
-      // $mail->setFrom('lead@geongroup.ru', 'ГЕОН'); // От кого
-      // $mail->addAddress('wp-lead@geongroup.ru'); // Кому
+      // Адреса
+      $mail->setFrom('lead@geongroup.ru', 'ГЕОН'); // От кого
+      $mail->addAddress('wp-lead@geongroup.ru'); // Кому
 
       $mail->isHTML(true);
       $mail->Subject = $_POST['form'];
@@ -87,7 +87,7 @@
             file_put_contents(__DIR__ . '/logs.log', "FILE ERROR " . count($_FILES['userfile']['tmp_name']) . " - " . print_r($_FILES, 1) . PHP_EOL, FILE_APPEND);
 
             error_log('Failed to move uploaded file: ' . $_FILES['userfile']['name'][ $ct ]);
-            header("Location: thanks.html");
+            header("Location: https://kns.geongroup.ru/thanks.html");
             echo "Error upload file";
             exit;
           }
@@ -99,7 +99,7 @@
       sendWebhooks($uploaded_files_urls);
       header('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
       header('Expires: Sat, 26 Jul 1997 05:00:00 GMT');
-      header("Location: thanks.html");
+      header("Location: https://kns.geongroup.ru/thanks.html");
       echo "OK";
     } catch (Exception $e) {
       echo "Сообщение не может быть отправлено. Ошибка отправки: {$mail->ErrorInfo}";
