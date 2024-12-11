@@ -12688,3 +12688,8 @@ font-size: 80px;
 .quiz-block .text-lg {
     color: #fff;
 }
+
+.quiz-block .title {
+    width: 100%;
+    text-align: center;
+}
