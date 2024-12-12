@@ -12654,13 +12654,14 @@ font-size: 80px;
     transform: translateX(-50%);
   }
   .solution-absolut  {
-    margin-top: 140px;
+    margin-top: 50px;
+    padding-top: 105px;
   }
 
   .solution-absolut-title {
     /* margin-bottom: 200px; */
     position: absolute;
-    top: -250px;
+    top: -210px;
   }
 }
 @media (max-width: 400px) {
@@ -12702,10 +12703,9 @@ font-size: 80px;
     padding-bottom: 90px;
 }
 }
-
-@media (max-width: 770px) {
+*/
+@media (max-width: 610px) {
 .solution-absolut {
     padding-bottom: 80px;
 }
 } 
-*/
