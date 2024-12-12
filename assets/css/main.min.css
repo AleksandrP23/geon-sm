@@ -12697,7 +12697,7 @@ font-size: 80px;
     display: inline-block;
 }
 
-@media (max-width: 1400px) {
+/* @media (max-width: 1400px) {
 .solution-absolut {
     padding-bottom: 90px;
 }
@@ -12707,4 +12707,4 @@ font-size: 80px;
 .solution-absolut {
     padding-bottom: 80px;
 }
-}
+} */
