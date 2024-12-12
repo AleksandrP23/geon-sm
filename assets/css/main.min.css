@@ -11871,6 +11871,7 @@ div.cursors div span.visible {
 @media (max-width: 425px) {
   .s-flex img {
       /* height: 130px; */
+      width: 350px;
       position: absolute;
       right: 0;
       bottom: 0;
@@ -12656,6 +12657,7 @@ font-size: 80px;
   .solution-absolut  {
     margin-top: 40px;
     padding-top: 150px;
+    padding-bottom: 50px;
   }
 
   .solution-absolut-title {
@@ -12665,6 +12667,11 @@ font-size: 80px;
   }
 }
 @media (max-width: 768px) {
+  .solution-absolut-title {
+    top: -250px;
+  }
+}
+@media (max-width: 430px) {
   .solution-absolut-title {
     top: -280px;
   }
