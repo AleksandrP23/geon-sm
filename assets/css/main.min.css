@@ -12654,8 +12654,8 @@ font-size: 80px;
     transform: translateX(-50%);
   }
   .solution-absolut  {
-    margin-top: 50px;
-    padding-top: 105px;
+    margin-top: 40px;
+    padding-top: 50px;
   }
 
   .solution-absolut-title {
@@ -12666,7 +12666,7 @@ font-size: 80px;
 }
 @media (max-width: 400px) {
   .solution-absolut-title {
-    top: -290px;
+    top: -320px;
   }
 }
 .quiz-block {
