@@ -12022,7 +12022,7 @@ font-size: 80px;
 }
 
 .s-approach-list h4{
-  font-size: 50px;
+  font-size: 48px;
   margin-left: 5px;
 }
 
@@ -12692,4 +12692,19 @@ font-size: 80px;
 .quiz-block .title {
     max-width: 100%;
     text-align: center;
+}
+.solution-absolut .list > li span {
+    display: inline-block;
+}
+
+@media (max-width: 1400px) {
+.solution-absolut {
+    padding-bottom: 90px;
+}
+}
+
+@media (max-width: 610px) {
+.solution-absolut {
+    padding-bottom: 80px;
+}
 }
