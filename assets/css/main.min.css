@@ -12702,9 +12702,9 @@ font-size: 80px;
     padding-bottom: 90px;
 }
 }
-
-@media (max-width: 610px) {
+*/
+@media (max-width: 770px) {
 .solution-absolut {
     padding-bottom: 80px;
 }
-} */
+} 
