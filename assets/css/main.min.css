@@ -12512,13 +12512,14 @@ font-size: 80px;
 
 .s-modal img {
   left: auto;
-  right: 0;
+  right: 40px;
   height: 135px;
 }
 
 @media (max-width: 1300px) {
   .s-modal img {
-      height: 125px;
+      height: 110px;
+      right: 0;
   }
 }
 
