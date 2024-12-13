@@ -12513,6 +12513,13 @@ font-size: 80px;
 .s-modal img {
   left: auto;
   right: 0;
+  height: 135px;
+}
+
+@media (max-width: 1300px) {
+  .s-modal img {
+      height: 125px;
+  }
 }
 
 .s-approach .col::before {
